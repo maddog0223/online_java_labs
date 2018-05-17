@@ -23,7 +23,23 @@ public class Exercise_02 {
 
     public static void main(String[] args) {
 
-        // write code here
+        int a = 10;
+        double b;
+
+        b = a;
+
+        System.out.println("Widening result "+a);
+
+        double c;
+        int d;
+
+        c = 10.5;
+
+        d =(int) c;
+
+        System.out.println("Narrowing/Casting result " + d);
+
+
 
     }
 }

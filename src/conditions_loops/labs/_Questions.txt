@@ -2,16 +2,38 @@ Answer the following questions:
 
 1.) What is the if statement used for?
 
+    To change of the flow of the execution.
+
 2.) What is good real life application of a switch statement?
+
+    Months, days, weeks, # of floors.
+    When the outcome has finite numbers.
 
 3.) What is the difference between a while loop and a do-while loop?
 
+    do-while-- THe body of the loop gets checked before the while condition
+    while loop-- THe body of the loop is checked after the while condition, so if the condition is false, the
+    body of the loop never gets checked.
+
 4.) What is the difference between a for loop and an enhanced for loop?
+
+    For loop -- Used to iterate values to repeat a sequence code
+    Enhanced/ For-each loop -- Used to iterate collection of variables (ex:array)
 
 5.) How do you create an infinite for loop?
 
+    keep the condition empty
+
 6.) What is the difference between the break statement and the continue statement?
+
+    break -- Used to get out of the loop
+    continue -- Forces an early iteration. Skips the targeted iteration. The continues on to the next iteration.
 
 7.) Is there a limit to how many loops you can nest?
 
+    no but the nested loop can get confusing.
+    The loop nested inside the outer loop has to be executed completely for the outer loop to go to the next iteration.
+
 8.) Is there a limit to how many conditional statements you can nest?
+
+    No

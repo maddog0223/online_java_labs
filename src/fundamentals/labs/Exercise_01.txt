@@ -18,6 +18,102 @@ Fundamentals Exercise 1: CLI
          b. Use $ cat print contents of file
          c. Use $ grep to search for a word inside file
 
+        1.
+         pandydog1@Madoka-Surface-Pro:~$ cd ~/Documents/CodingNomadsOnline/
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline$ pwd
+         /home/pandydog1/Documents/CodingNomadsOnline
+
+        2.
+
+        pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline$ mkdir Terminal_testing
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline$ ls -al
+         total 16
+         drwxrwxr-x 4 pandydog1 pandydog1 4096 May 11 05:41 .
+         drwxr-xr-x 3 pandydog1 pandydog1 4096 May  8 00:19 ..
+         drwxrwxr-x 6 pandydog1 pandydog1 4096 May 11 03:44 online_java_labs
+         drwxrwxr-x 2 pandydog1 pandydog1 4096 May 11 05:41 Terminal_testing
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline$ cd Terminal_testing/
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ pwd
+         /home/pandydog1/Documents/CodingNomadsOnline/Terminal_testing
+
+        3.
+
+        a.
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ touch haha.txt
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ touch lol.text
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ touch lmao.text
+
+        c.
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ ls -al
+         total 8
+         drwxrwxr-x 2 pandydog1 pandydog1 4096 May 11 05:44 .
+         drwxrwxr-x 4 pandydog1 pandydog1 4096 May 11 05:41 ..
+         -rw-rw-r-- 1 pandydog1 pandydog1    0 May 11 05:43 haha.text
+         -rw-rw-r-- 1 pandydog1 pandydog1    0 May 11 05:44 lmao.text
+         -rw-rw-r-- 1 pandydog1 pandydog1    0 May 11 05:44 lol.text
+
+        b.
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ pwd
+         /home/pandydog1/Documents/CodingNomadsOnline/Terminal_testing
+
+        5.
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ mkdir Second_Folder
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ ls -al
+         total 12
+         drwxrwxr-x 3 pandydog1 pandydog1 4096 May 11 05:57 .
+         drwxrwxr-x 4 pandydog1 pandydog1 4096 May 11 05:41 ..
+         -rw-rw-r-- 1 pandydog1 pandydog1    0 May 11 05:43 haha.text
+         -rw-rw-r-- 1 pandydog1 pandydog1    0 May 11 05:44 lmao.text
+         -rw-rw-r-- 1 pandydog1 pandydog1    0 May 11 05:44 lol.text
+         drwxrwxr-x 2 pandydog1 pandydog1 4096 May 11 05:57 Second_Folder
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ ls -al
+         total 12
+         drwxrwxr-x 3 pandydog1 pandydog1 4096 May 11 06:00 .
+         drwxrwxr-x 4 pandydog1 pandydog1 4096 May 11 05:41 ..
+         -rw-rw-r-- 1 pandydog1 pandydog1    0 May 11 05:43 haha.text
+         -rw-rw-r-- 1 pandydog1 pandydog1    0 May 11 05:44 lmao.text
+         -rw-rw-r-- 1 pandydog1 pandydog1    0 May 11 05:44 lol.text
+         drwxrwxr-x 2 pandydog1 pandydog1 4096 May 11 05:57 Second_Folder
+
+         6.
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ cp haha.text Second_Folder/
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ cd Second_Folder/
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing/Second_Folder$ ls
+         haha.text
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing/Second_Folder$ cd ..
+
+         7.
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ mv lmao.text Second_Folder/
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ ls -al
+         total 12
+         drwxrwxr-x 3 pandydog1 pandydog1 4096 May 11 06:03 .
+         drwxrwxr-x 4 pandydog1 pandydog1 4096 May 11 05:41 ..
+         -rw-rw-r-- 1 pandydog1 pandydog1    0 May 11 05:43 haha.text
+         -rw-rw-r-- 1 pandydog1 pandydog1    0 May 11 05:44 lol.text
+         drwxrwxr-x 2 pandydog1 pandydog1 4096 May 11 06:03 Second_Folder
+
+        8.
+        a.
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ rm haha.text
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ ls
+         lol.text  Second_Folder
+
+        b.
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ rm -R Second_Folder/
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ ls
+         lol.text
+
+        9.
+        a.
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ vim lol.text
+        b.
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ cat lol.text
+         Just testing
+        c.
+         pandydog1@Madoka-Surface-Pro:~/Documents/CodingNomadsOnline/Terminal_testing$ grep "testing" lol.text
+         Just testing
+
+
 Example Output (pwd):
     1. Cadens-MacBook-Pro:CodingNomads cadenmackenzie$ pwd
        /Users/cadenmackenzie/Documents/CodingNomads

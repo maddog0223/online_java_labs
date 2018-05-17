@@ -1,37 +1,97 @@
 Answer the following questions:
-This is the first edit
+
 1.) Using the command line, how do you:
     a. change directories?
+
+        cd <directory>/
+        cd ~<directory>/ //directs from whatever file you're in
+
     b. list the contents of a folder?
+
+         ls (basic) ls -al (very detailed/list of hidden infos)
+
     c. print the path of the current directory?
+
+         pwd <print work directory>
+
     d. move a file from one location to the another?
+
+        mv <file1> ~ /<directory>
+
     e. copy a file from one location to another?
+
+        cp <file> ~/<directory>
+
     f. create a file?
+
+        touch <file>
+
     g. create a folder?
+
+        mkdir <foldername>
+
     h. delete a file?
+
+        rm (file)
+
     i. delete a folder?
+
+        rm -iR (folder)
+
     j. print the contents of a file?
+
+        cat <file>
+
     k. edit the contents of a file?
 
+        chmod <file>
+
 2.) Why do we use git and Github?
+    It's fast and efficient for coders
+    Easier for programmers to combine their codes and work on a small to big projects
+    without any of their codes getting overwritten.
 
 3.) What is the general flow of git?
 
+        master
+
 4.) What is the purpose of adding a remote to a local git repository?
+
+      For others to be able to read and write the code you've created.
 
 5.) How do you print a message to the console?
 
+        System.out.print();
+
 6.) Where does a program begin its execution?
+
+        public static void main(String arg[])
 
 7.) What is a code block and how do you create one?
 
+        Two or more statements inside the curly braces {}
+    Defined by {}
+
 8.) What is the idea of variable scope?
+
+        To determine the accessibility of a variable
 
 9.) What are semicolons used for?
 
+        The termination of a code/statement
+
 10.) What are lines of code indented? When should a line be indented?
 
+     To make the codes more readable/organized --Especially when programmers are working together
+     on a project.
+    I new line is created inside every new bracket
+
 11.) What does a .java file need to be complied to a .class file before running?
+    why
+
+        So the codes can be translated and executed into different operation systems (probability)
+    and security reasons (JVM helps prevent unauthorized access from the outside system)
+
 
 
 

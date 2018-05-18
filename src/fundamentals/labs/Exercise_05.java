@@ -24,6 +24,16 @@ public class Exercise_05 {
         int days = scanner.nextInt();
 
         // write completed code here
+        int sec, a;
+        sec = 86400;
+
+        a = sec*days;
+
+        System.out.println(a+" seconds in "+ days + " days");
+
+
+
+
 
     }
 }

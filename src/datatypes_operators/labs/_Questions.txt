@@ -3,31 +3,94 @@ Answer the following questions:
 
 1.) What are the names and uses of Java's eight primitive types?
 
+double -- double-precision float point---3.53847593487538947
+float -- single- precision float point---3.4343434343
+int -- integer---343243423
+byte -- 8-bit integer---343
+short -- short integer---43432
+long -- long integer---342342354524524
+char -- character---'a'
+boolean -- true/false
+
 2.) How do you declare and initialize an int variable called "x" with the value 42.
+
+int x = 42;
 
 3.) What happens if you initialize a double variable with the value of a int?
 
+widening
+automatic conversion
+
 4.) How do you set an int variable to the value of a double?
+
+casting
+
+double y;
+
+int x = (int) y;
 
 5.) What are the 5 arithmetic operators?
 
++ add
+- subtract
+* multiply
+/ divide
+% modulus (the remainder of division)
+
 6.) What are Relational operators used for? What is the result of using a relational operator?
+
+-- Used to show the relations of values by using = =, !=, >,<, <=, or >=
+-- Results a true or a false
 
 7.) Demonstrate the use of a Relational operator.
 
+int a = 1;
+int b = 2;
+
+if (a!=b) System.out.print ("a is not b");
+
 8.) What logical operators used for? What is the result of using a logical operator?
+
+-- Used to show the relations of values with &, |, ^, ||, &&, or!
+-- Results true or a false
+-- inequality ot equality relation
 
 9.) Demonstrate the use of a logical operator.
 
+p = false
+q= true
+
+if (p&q) System.out.println( "false");
+
+^^^will not execute
+
+if (q^p) System.out.print("true");
+
+^^^ will execute
+
 10.) How can you use the shorthand addition operator to add 10 to a variable "x"?
+
+x += 10;
 
 11.) What data type is a String?
 
+-- not a primitive data type
+-- It is an object type
+
 12.) Are string mutable?
+
+Strings are not mutable (immutable --unchangeable after being created)
 
 13.) How do you concatenate Strings?
 
+can concatenate with a + operator
+
+System.out.print("hi" + "bye");
+
 14.) Can you cast and int to a String or a String to an int? Why or why not?
+
+
+
 
 15.) What is an array?
 

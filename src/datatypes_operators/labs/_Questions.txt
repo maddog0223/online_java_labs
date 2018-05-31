@@ -89,20 +89,73 @@ System.out.print("hi" + "bye");
 
 14.) Can you cast and int to a String or a String to an int? Why or why not?
 
-
+You can't cast String to int and vice versa
+String is an object type
+int is a primitive
+They are not the same data type
 
 
 15.) What is an array?
 
+A collection of variables of the same type
+Arrays are objects
+
 16.) What is the first index of an array?
+
+0
+
 
 17.) Can you change the size of an array once it has been declared and initialized?
 
+No, Arrays are fixed
+
 18.) How do you print the 5th element in an array "exampleArray"?
+
+int [] exampleArray = int [7];
+
+int a = exampleArray[4];
+
 
 19.) What are the two ways you can declare and initialize an array? Demonstrate both.
 
+1-- int [] example1 = new int [4];
+2 -- int [] example2 = {1,2,3,4};
+
 20.) How do you iterate through a multidimensional array?
 
+1--int [][] multdex = new int [5][10];
+
+2--int [][] = multdex = {
+{1,2,3,4,},
+{2,4,6,8},
+{3,6,9,12}
+};
+
+3-- iterate through array:
+
+for ( int i = 0; i < multdex.length; i++) {
+
+    for ( int x = 0; x < multdex[i].length; x++) {
+
+        System.out.println ( multdex[i][x]);
+
+    }
+
+}
+
+4 -- iterate through array (for each loop)
+
+for( int[] arr : multdex) {
+
+    for (int val : arr) {
+
+        System.out.println(val);
+
+    }
+
+}
+
 21.) What is the for-each loop used for?
+
+iterate over a collection of variables.
 

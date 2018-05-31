@@ -3,43 +3,163 @@ Answer the following questions:
 
 1.) What is an instance variable?
 
+When a variable is defined inside a class and outside of method.
+Defines the nature of the class.
+
+class Vehicle {
+// instance variables
+}
+
 2.) How do you create an object of a class Vehicle?
+
+  Vehicle object name = new Vehicle ();
 
 3.) What is a reference variable? How is it different from a primitive type?
 
+a variable that creates a new object
+primitive type is less complex than creating a reference variable
+
+primitive -- type variable = value
+
+reference
+class type object1;
+
 4.) What does it mean to pass by reference?
+
+When a method's object type is copied on to another method.
+But the second method does not own it's own copy of the object.
+ Whatever change you make on to the object in method 2 will be "transferred" to method 1.
+ Basically the changes that were made in the object will be the same in both methods
 
 5.) What makes up a method signature?
 
+the access modifier ( public,private, protected/ static, non - static), the return-type, method-name, parameter
+
 6.) Write a method signature for a method divide() that takes two ints as parameters and returns a double.
+
+public static double divide ( int 1, int 2){ }
 
 7.) When does a method stop executing? How can you make it terminate?
 
+return
+
 8.) How do you return a String from a method?
+
+public static String hi( string 1, string 2)
+
+return 1 + 2;
+
 
 9.) What is the return type of a method that does not returns any value?
 
+void
+
 10.) When should a method be static?
+
+when you are not adding instance variables
+
+within a class
+
+when other methods are static
+
 
 11.) What is an example of a time you would make an instance variable static? final?
 
+instance -- When you want a variable to be part of a class ( a member of the class), rather then only existing in one method.
+
+    When you want different methods (or even different class depending on the access modifier) within the class
+ to be able to use a certain variable.
+
+final -- when you don't want the variable to be changed in anyway (ex:pi)
+
+
 12.) When a method returns a value, what needs to be done with that value?
+
+The value is assigned to a new variable for that value.
+The value is called.
+
 
 13.) What is method overloading?
 
+when you make a method that already exists, but have different parameters
+this method can be  used in the same class
+
 14.) Demonstrate method overloading by writing the method signature of two overloaded methods.
+
+parameter type, or the different numbers of the type in the parameter
+
 
 14.) What are constructors used for?
 
+The start up to creating the object
+To refer the object
+
 15.) If a class does not have a constructor, how does Java handle the creation of an object
+
+java will create a default constructor (without arguments)
+** cannot call arguments
 
 16.) What does a constructor that takes in two variable, make and model, for a class Vehicle look like?
 
+class Vehicle {
+
+    String model;
+    String make;
+
+    Vehicle (String model, String make) {
+
+        this.model = model;
+        this.make = make;
+
+    }
+    public void static main(String args[]) {
+
+        Vehicle car = new Vehicle ("Subaru", "Outback");
+
+        }
+
+  }
+
+
 17.) What is the "this" keyword used for?
+
+to refer the variable to the instance variable
+(when a method has the same name as the instance var.)
 
 18.) What are the keywords public, private, protected used for in a class declaration? A method declaration? Variable declaration?
 
+public -- Methods/variables can be called from different classes
+
+all public methods, class, and variable are able to be accessed by other method, or classes.
+
+private -- method/ variable can only be called in that particular class it's in
+
+parent classes can not be private. Subclasses can be called private. If it is, only the parent class of the
+ subclass can be accessed.
+methods and variables that are private can only be accessed in the class it is in.
+
+protected -- methods/ variables can be called as long as they are in the same package
+
+can not protect a parent class
+
+
 19.) What is constructor overloading?
 
+When there are two constructors with the same (class) name ,but it
+ has different parameters, or has different number of parameters.
+
+
+
 20.) Demonstrate constructor overloading with three overloaded constructors.
+
+Coco(int count){
+
+    a = count
+}
+
+Coco(String dogname){}
+
+Coco(int count, int size){}
+
+
 

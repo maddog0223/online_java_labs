@@ -20,4 +20,28 @@ package conditions_loops.labs;
  */
 
 public class Exercise_11 {
-}
+
+    int a;
+    int i;
+    int mult;
+    public static void main(String[] args) {
+
+        for( int a = 1; a <= 10;a++) {
+            System.out.println("\n");
+
+        for (int i= 1; i <=10; i++) {
+
+            int mult = a*i;
+
+            System.out.print( mult + "|");
+
+        }
+
+
+            }
+
+        }
+
+
+
+    }

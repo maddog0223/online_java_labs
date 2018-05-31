@@ -8,4 +8,23 @@ package conditions_loops.labs;
  */
 
 public class Exercise_06 {
+
+
+    public static void main(String args[]) {
+
+        int a = 0;
+        int sum = 0;
+
+
+        while  (a < 101) {
+
+             sum += a;
+
+             a++;
+
+         }
+
+        System.out.println("The sum of 1 to 100 is " +sum);
+
+    }
 }

@@ -1,5 +1,7 @@
 package objects_classes_methods.labs;
 
+import javax.swing.*;
+
 /**
  * Objects, Classes and Methods Exercise 1:
  *
@@ -16,4 +18,52 @@ package objects_classes_methods.labs;
  *      Cars, animals, poker games, sports teams, trees, beers, people and so on.
  */
 
+class Food {
 
+    public static void main(String[] args) {
+
+        Vegetables cucumber = new Vegetables("Crunchy and Jelly-like","water",7 );
+        String a = cucumber.texture;
+
+        Fruits durian = new Fruits("Slimy","Bitter and Sweet",3);
+
+        String b = durian.taste;
+
+
+
+        System.out.println("Cucumber\n Texture: " +a  );
+
+        System.out.println(" \nDurian\nTaste: " + b);
+    }
+
+}
+
+
+class Vegetables {
+            String texture;
+            String taste;
+            int rate;
+
+        Vegetables(String te, String ta, int r){
+
+             texture = te;
+             taste = ta;
+             rate = r;
+
+            }
+        }
+
+        class Fruits {
+
+            String texture;
+            String taste;
+            int rate;
+
+            Fruits(String te2, String ta2, int r2) {
+                texture = te2;
+                taste = ta2;
+                rate = r2;
+
+            }
+
+        }

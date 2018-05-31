@@ -12,4 +12,52 @@ package objects_classes_methods.labs;
  *
  */
 
+class Class1 {
+
+public static void main(String[]args){
+    class1 a = new class1(8,16);
+   class2 b = new class2(3,1);
+   class3 c = new class3("hello back", 2.3);
+
+    class2 obj = new class2(5,6);
+    obj.sweet();
+
+        }
+
+}
+    class class1{
+    int sleep;
+    int awake;
+    class1(int s, int a) {
+        sleep = s;
+        awake = a;
+    }
+
+}
+    class class2 {
+
+    int cookie;
+    int dough;
+
+    class2(int a, int b ) {
+        cookie = a;
+        dough = b;
+    }
+
+    public void sweet(){
+        System.out.println("YUM");
+    }
+        }
+
+        class class3 {
+    String hello;
+    double num;
+    class3(String hello, double num){
+        this.hello = hello;
+        this.num = num;
+    }
+
+
+        }
+
 

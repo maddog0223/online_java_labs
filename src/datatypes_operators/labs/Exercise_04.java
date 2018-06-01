@@ -30,7 +30,7 @@ public class Exercise_04{
 
         }
 
-        double average = sum/10;
+        double average = (sum/10);
 
 
         System.out.println("The sum is " + sum + " and the average is " + average);

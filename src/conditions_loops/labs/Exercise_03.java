@@ -16,7 +16,7 @@ public class Exercise_03 {
 
         Scanner scanner= new Scanner(System.in);
 
-        System.out.println("Pick a month and enter it in a number form:");
+        System.out.println("Pick a number from 1 through 12 so I can change the number into a month:");
 
         int i= scanner.nextInt();
 
@@ -32,6 +32,7 @@ public class Exercise_03 {
                 break;
             case 4:
                 System.out.println("April");
+                break;
             case 5:
                 System.out.println("May");
                 break;

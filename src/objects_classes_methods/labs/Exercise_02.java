@@ -66,10 +66,10 @@ class D{
     //4
 
     public int method1(int r){
-        q = r;
 
         method2(4);
         System.out.println(method2(3));
+        q = r;
         return q;
     }
 

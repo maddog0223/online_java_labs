@@ -2,13 +2,41 @@ Answer the following questions:
 
 1.) What is a package?
 
+Like a folder that contain classes and interface
+A "folder " is called "package" after the src package(folder).
+
 2.) How to you import a package?
+
+Type import keyword (put space between )and type in the package name. If you have more than one package, type a dot each time you type in the new package.
+
+If you also want to import the class, type the class at the end.
+
+ex) import pack1.pack2.pack3.hello   //hello = classname
+________________________________
+Type this on top of class
 
 3.) What structure do packages mimic?
 
-4.) How do do you compile a .java file in a package "solo_package" from the command line?
+In a package hierarchy,
+it should match with the file structure
+
+**4.) How do do you compile a .java file in a package "solo_package" from the command line?
+
+cd in to the solo_package
+javac filenameinthesolopackage.java
+
 
 5.) What if the above package is in a package "parent_package". Where do you need to be to
     compile a .java file in "solo_package" from the command line?
 
+
+cd into the parent package and cd into the solo package
+then javac filename.java
+
+
+
 6.) What extra layer do packages add to access control?
+
+access modifier
+private, public, protected, default
+

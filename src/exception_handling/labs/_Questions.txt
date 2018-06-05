@@ -2,23 +2,67 @@ Answer the following questions:
 
 1.) What is exception handling?
 
+A method or a way to gracefully handle errors that programmers can manage.
+
 2.) What is the exception hierarchy? What is the difference between the Exception class and the Error class?
+
+Defines that the Error class and the Exception class are the automatically the subclasses of Throwable class.
+
+Error -- Errors are exceptions that come from the machine. The programmers rarely handle this error. Handled by the JVM
+Exceptions - Exceptions that come from the program activity. Therefore, the programmers handle this error gracefully.
 
 3.) What is a try/catch?
 
+**The foundation of all exception handling
+try block -- method that wraps and monitors/detects where the error may be
+
+catch block -- "Tries to catch" Handles the exception. Tries to specify the exception
+
 4.) What exceptions have you come across thus far?
+
+try/catch
+throw/throws
+finally
 
 5.) How many catch statement can you have following a try?
 
+no limit
+multiple
+
 6.) How many try statements can you have preceding a catch?
+
+one
 
 7.) What does the finally statement do in a try/catch/finally block?
 
+finally is a statement that executes a result in the statement (for the finally) no matter what the result
+is for the try/catch statement
+
 8.) Can you nest exceptions? If so, when would you nest an exception?
+
+Yes, when the inner try block does not catch to exception. There will be another block( the outer try statement) that will be able to
+detect the exception
 
 9.) If you want to catch an ArrayIndexOutOfBounds exception and an Exception exception,
     which should you catch first? Why?
 
+    The more specific one, so the ArrayIndexOutOfBounds
+
+    The specified exception is like the child statement of exception catch statement
+    Exceptuion exception is talking about all the general exceptions, including the ArrayIndexOutOfBounds
+
+    If the Exception exception is caught first, that means the ArrayIndexOutOfBounds exception is ALSO caught.
+    You won't really know what specific exception was caught.
+
 10.) How do you rethrow and exception? Why would you rethrow an exception?
 
+you type the 'throw' keyword then the exception variable, inside the catch scope
+
+If you have multiple exception in the try scope, it would be use ful to re-throw it in to the next catch statement ( so another specified
+exception)
+
 11.) What is the purpose of the throws keyword?
+
+To detect exception when you have exception in one or more exceptions
+
+throws detect exceptions following classes

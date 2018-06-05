@@ -2,19 +2,49 @@ Answer the following questions:
 
 1.) What is inheritance?
 
+When a class(subclass) is able to access all the methods and traits from another class (parent class).
+
 2.) Why do we use inheritance?
+
+Reduces many functional issue. This is because inheritance allow codes to be used;
+therefore, it makes the program more efficient as well.
 
 3.) Provide a real world example where you think inheritance would be implemented.
 
+Working in a car company
+
+Subaru extends Vehicle
+
 4.) How does a class inherit another class?
+
+class a extends class b
+>>class a is now a subclass of class b
 
 5.) How many levels can a hierarchy extend?
 
+infinity (but not recommended)
+
 6.) What is the "super" keyword used for?
+
+A reference to the variables of parent class
 
 7.) When a subclass object is created, in what order do the constructors execute?
 
+The parent class is executed before the subclass
+
 8.) What is method overwriting?
 
+A class declaring the same exact method from another class
+
 9.) How can method overwriting be beneficial?
+
+This makes coding more productive and efficient
+
+When you want the general method to be to same, but want to tweak it a little.
+
+example -- A car and a motorcycle can drive by starting the engine;
+however, how they start the engine is a bit different
+
+Creating a new method each time for a different vehicle can be time consuming and confusing.
+Creating an overwrite method can help you tweak inside the method that was overwritten and
 
